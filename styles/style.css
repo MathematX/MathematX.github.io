@@ -1,0 +1,112 @@
+/* GENERAL */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+html{
+  min-height: 100vh;
+}
+
+header,
+main{
+  padding: 0 10%;
+}
+
+main{
+  background-image: url("../images/topography.png");
+  min-height: calc(100vh - 50px);
+}
+
+h1,
+h2,
+h3{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER */
+header{
+  position: absolute;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333333;
+  height: 50px;
+}
+
+header .logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 5px;
+}
+
+header .links-container{
+  display: flex;
+}
+
+header .links-container a{
+  padding: 0 20px;
+  color: #ff0099;
+  text-underline-offset: 2px;
+}
+
+/* HERO */
+section.hero{
+  padding-top: 10vw;
+}
+
+section.hero h1{
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 3vw;
+}
+
+section.hero h3{
+  font-size: 26px;
+  font-weight: 400;
+  color: #ff0099;
+  margin-bottom: 1.5vw;
+}
+
+/* SEPARATOR */
+div.separator{
+  padding: 5vw 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+/* WIKI */
+section.wiki {
+  margin-bottom: 10vw;
+}
+
+section.wiki h2{
+  font-size: 36px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3vw;
+}
+
+section.wiki h3{
+  font-size: 26px;
+  font-weight: 400;
+  margin-bottom: 1.5vw;
+}
+
+/* FOOTER */
+footer{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333333;
+  color: #ff0099;
+  font-size: 14px;
+}
